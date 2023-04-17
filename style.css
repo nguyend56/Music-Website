@@ -1,0 +1,193 @@
+.style {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-transform: none;
+}
+
+body{
+    background-color: #565863;
+}
+
+#box {
+    text-align: center;
+    background-color: black;
+    padding: 25px 40px 25px 40px;
+    border: 40px darkgoldenrod;
+    margin: 20px;
+    width: 1375px;
+    box-sizing: border-box;
+}
+
+/* Smart phone */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #box{
+        width: 30%;
+    }
+} 
+
+/* Laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #box{
+        width: 60%;
+    }
+} 
+
+/* Desktop */
+@media screen and (min-width: 1370px) and (max-width: 1605px) {
+    #box{
+        width: 100%;
+    }
+} 
+
+/* Ipad, tablet */
+@media screen and (min-width: 768px) and (max-width: 1007px) {
+    #box{
+        width: 55%;
+    }
+} 
+
+#content {
+    background-color: #2A2727;
+}
+
+h1, h3 > p {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: black;
+    opacity: 0.9; 
+}
+
+h1 > div > a > div{
+    font-size: 36px;
+}
+
+
+
+div > div > h2 {
+    color: darkgoldenrod;
+    font-size: 30px;
+    border-color: 2px darkgoldenrod;
+    text-align: center;
+    background-color: #2A2727;
+}
+
+* {
+      box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 60px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+.paragraphColor {
+    color: darkgoldenrod;
+    font-size: 21px;
+    text-align: center;
+}
+
+.paragraphColor2 {
+    color: darkgoldenrod;
+    font-size: 30px;
+    text-align: none;
+}
+
+li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: darkgoldenrod;
+    border: 1px slategrey;
+    display: block;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 1px;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    background-color: slategrey;
+    color: black;
+}
+
+.fontSize {
+    font-size: 30px;
+}
+
+h3 > div:nth-child(even){
+    color: darkgoldenrod;
+    background-color: black;
+}
+
+h3 > div:nth-child(odd){
+    color: black;
+    background-color: darkgoldenrod;
+}
+
+#bg {
+    background-position: center;
+    width: 350px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h2 > div, h3 > div, h4 > div {
+    color: darkgoldenrod;
+    font-size: 36px;
+    text-align: center;
+}
+
+h3{
+    color: darkgoldenrod
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.image-container {
+    text-align: center;
+  }
+  .image-container img {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.image-container-2 {
+    display: inline-block;
+}
+
+h5 {
+    text-align: center;
+}
+
+
+
+
